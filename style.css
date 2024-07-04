@@ -1,0 +1,65 @@
+body {
+    background: radial-gradient(circle at center, #0f0f0f, #020202);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #00e5e5;
+}
+
+.input-group {
+    padding: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    color: #00e5e5;
+}
+
+.input-group input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+.redeem-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00e5e5;
+    color: #020202;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.redeem-button:hover {
+    background: #00bfbf;
+}
+
+.redeem-button:active {
+    background: #009999;
+}
